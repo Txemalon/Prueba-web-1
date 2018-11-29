@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi primera pagina en Nodejs y JavaScript</title>
+
+<!-- esto es para la barra de busqueda -->
+  <!--  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!--- Include the above in your HEAD tag ---------->
+
+
+<!--carousel-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--- Include the above in your HEAD tag ---------->
+
+
+
+  </head>
+
+
+  <body>
+    <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html">Apadrina un árbol</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li class="active"><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre la asociación <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="paginas/quienessomos.html">Quienes somos</a></li>
+              <li><a href="paginas/dondeestamos.html">Donde estamos</a></li>
+
+            </ul>
+            <li class="dropdown"><a href="paginas/actividades.html">Actividades</a></li>
+            <li class="dropdown"><a href="paginas/forestal.html">Documentación forestal</a></li>
+
+        </ul>
+            <ul class="nav pull-right">
+          <li class="dropdown"><a href="paginas/contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse https://bootsnipp.com/snippets/NjR9z-->
+    </div>
+  </div><!-- /navbar-inner -->
+</div>
+
+
+<div class="container">
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+</div>
+
+
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">¿Te apeteceria tener una parcela de bosque?</h1>
+
+
+      </div>
+    </div>
+
+    <span style=”border-image: initial; border: 1px solid blue;”>Este proyecto surgió con el fin de mantener un ecosistema en el que coexisten muchos seres vivos limpio y más seguro contra los incendios forestales así como una manera de conectar con la fauna y flora de nuestro entorno en unos tiempos de desconexión con la Madre Naturaleza y de sobreexposición al mundo urbano y artificial. De esta manera, al apadrinar una parcela de bosque, no solo estamos ayudando a prevenir el riesgo de incendios ni mantener un espacio limpio de basura, sino que también estamos promoviendo el contacto con la naturaleza y el ocio dentro de ella. </span>
+
+
+<div class="container">
+<center>
+<img src="img/bosque.jpg" alt="Esto es un bosque">
+</center>
+</div>
+
+  </body>
+</html>
